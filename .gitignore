@@ -1,0 +1,13 @@
+﻿node_modules/
+node_modules.incomplete/
+dist/
+.venv/
+__pycache__/
+docs/
+*.py[cod]
+*.db
+.env
+backend/data/
+artifacts/
+cache/
+hardhat-node.log

@@ -1,0 +1,14 @@
+{
+  "name": "campustrust-chain",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "chain": "hardhat node",
+    "compile": "hardhat compile",
+    "deploy:local": "hardhat run scripts/deploy.cjs --network localhost"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "5.0.0",
+    "hardhat": "^2.28.0"
+  }
+}
